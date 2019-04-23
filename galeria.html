@@ -4,13 +4,93 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Restaurante</title>
+    <!-- Reset CSS -->
+    <link rel="stylesheet" href="./css/reset.css" />
+    <!-- Link das fontes -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Zilla+Slab"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato"
+      rel="stylesheet"
+    />
+    <!-- Estilização do site -->
+    <link rel="stylesheet" href="./css/settings.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/gallery.css" />
+    <title>VeGan Restaurant</title>
   </head>
   <body>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam quaerat,
-      minima odit aperiam enim sunt saepe ratione sint voluptatem molestias quia
-      blanditiis numquam quam voluptates nobis dicta aut error nulla.
-    </p>
+    <div class="container">
+      <header class="header-container" id="header-top">
+        <div class="header-schedule">
+          <img src="./img/icone-relogio.png" alt="icone de relógio" />
+          <div class="header-schedule-content">
+            <h4>Mon to Fri: 11:am - 10:00pm</h4>
+            <h4>Sat to Sun: 08:00am - 11:00pm</h4>
+          </div>
+        </div>
+        <div class="header-logo">
+          <img src="./img/VeGan.jpg" />
+          <img src="./img/Restaurant.jpg" />
+        </div>
+        <div class="header-address">
+          <img src="./img/icone-endereco.png" alt="ícone de endereço" />
+          <div class="header-address-content">
+            <h4>167 Science Center Drive, USA</h4>
+            <h4>+180-123-4567</h4>
+          </div>
+        </div>
+      </header>
+      <nav class="nav-container">
+        <a href="/index.html">Home</a>
+        <a href="./sobre.html">About</a>
+        <a href="./galeria.html">Gallery</a>
+        <a href="./contato.html">Contact</a>
+      </nav>
+      <div class="page-header">
+        <h2>Gallery</h2>
+      </div>
+      <main class="content">
+        <div class="gallery-container">
+          <div class="gallery-first">
+            <img src="./img/pratos/kafta vegano.jpg" alt="" />
+            <img src="./img/pratos/merenda frutinhas.jpg" alt="" />
+            <img src="./img/pratos/panqueca vegana.jpg" alt="" />
+            <img src="./img/pratos/ramen vegano.jpg" alt="" />
+            <img src="./img/pratos/risoto vegano.jpg" alt="" />
+            <img src="./img/pratos/salada.jpg" alt="" />
+            <img src="./img/pratos/sanduiche vegano.jpg" alt="" />
+            <img src="./img/pratos/smoothie morango.jpg" alt="" />
+            <img src="./img/pratos/sobremesa gelato vegan.jpg" alt="" />
+            <img src="./img/pratos/sopa de brocolis.jpg" alt="" />
+          </div>
+          <button class="btn" id="btn-see">See More</button>
+          <div class="gallery-second">
+            <img src="./img/pratos/sopa de ervilhas.jpg" alt="" />
+            <img src="./img/pratos/sushi vegano.jpg" alt="" />
+            <img src="./img/pratos/Feijoada vegana.jpg" alt="" />
+            <img src="./img/pratos/Lasanha de legumes.jpg" alt="" />
+            <img src="./img/pratos/Macarrao Alfredo.jpg" alt="" />
+            <img src="./img/pratos/Nhoque de brocolis.jpg" alt="" />
+            <img
+              src="./img/pratos/Smoothie chocolate, banana e creme de amedoim.jpg"
+              alt=""
+            />
+            <img src="./img/pratos/almodega vegana.jpg" alt="" />
+            <img src="./img/pratos/bolo vegano.jpg" alt="" />
+            <img src="./img/pratos/crepe frutas vermelhas.jpg" alt="" />
+          </div>
+        </div>
+      </main>
+      <footer class="footer-container">
+        <h4>Tel: +180-123-4567</h4>
+        <h4>Founded in: 22/04/2019</h4>
+        <h4>Website Developed by: Leonardo Lima Cavalcante</h4>
+      </footer>
+    </div>
+    <script src="js/jquery.js"></script>
+    <script src="js/gallery.js"></script>
   </body>
 </html>

@@ -4,13 +4,75 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Restaurante</title>
+    <!-- Reset CSS -->
+    <link rel="stylesheet" href="./css/reset.css" />
+    <!-- Link das fontes -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Zilla+Slab"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato"
+      rel="stylesheet"
+    />
+    <!-- Estilização do site -->
+    <link rel="stylesheet" href="./css/settings.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/about.css" />
+    <title>VeGan Restaurant</title>
   </head>
   <body>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam quaerat,
-      minima odit aperiam enim sunt saepe ratione sint voluptatem molestias quia
-      blanditiis numquam quam voluptates nobis dicta aut error nulla.
-    </p>
+    <div class="container">
+      <header class="header-container" id="header-top">
+        <div class="header-schedule">
+          <img src="./img/icone-relogio.png" alt="icone de relógio" />
+          <div class="header-schedule-content">
+            <h4>Mon to Fri: 11:am - 10:00pm</h4>
+            <h4>Sat to Sun: 08:00am - 11:00pm</h4>
+          </div>
+        </div>
+        <div class="header-logo">
+          <img src="./img/VeGan.jpg" />
+          <img src="./img/Restaurant.jpg" />
+        </div>
+        <div class="header-address">
+          <img src="./img/icone-endereco.png" alt="ícone de endereço" />
+          <div class="header-address-content">
+            <h4>167 Science Center Drive, USA</h4>
+            <h4>+180-123-4567</h4>
+          </div>
+        </div>
+      </header>
+      <nav class="nav-container">
+        <a href="./index.html">Home</a>
+        <a href="./sobre.html">About</a>
+        <a href="./galeria.html">Gallery</a>
+        <a href="./contato.html">Contact</a>
+      </nav>
+      <div class="page-header">
+        <h2>About Us</h2>
+      </div>
+      <main class="content">
+        <div class="about-container">
+          <figure class="about-logo">
+            <img src="./img/VeGan.jpg" alt="" />
+            <img src="./img/Restaurant.jpg" alt="" />
+          </figure>
+          <section class="about-text">
+            <p>
+              We are the VeganRestaurant, the newest vegan restaurant. We are
+              attentive and we are within reach of all clients. Here you will
+              feel cozy and welcome. We have dishes for all kinds of tastes -
+              all vegan!
+            </p>
+          </section>
+        </div>
+      </main>
+      <footer class="footer-container">
+        <h4>Tel: +180-123-4567</h4>
+        <h4>Founded in: 22/04/2019</h4>
+        <h4>Website Developed by: Leonardo Lima Cavalcante</h4>
+      </footer>
+    </div>
   </body>
 </html>

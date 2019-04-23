@@ -28,7 +28,10 @@ h6 {
   font-size: 0.75em;
 }
 
-p {
+p,
+button,
+label,
+figcaption {
   font-family: "Lato", sans-serif;
   color: #6e726e;
   display: inline;

@@ -95,38 +95,13 @@
   width: 100%;
 }
 
-.cardapio-container {
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-}
-
-.cardapio {
+.footer-container {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-evenly;
-  align-items: center;
-  width: 100%;
-}
-
-.footer-container {
-  display: flex;
+  align-content: center;
   background-color: #121413;
-  height: 39.35vh;
+  height: 15vh;
   width: 100%;
-}
-
-.footer-Heading {
   color: #fff;
-}
-
-.quickLinksUl {
-  display: flex;
-  list-style: none;
-}
-
-.ul-Item {
-  color: #6e726e;
 }

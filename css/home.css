@@ -1,0 +1,37 @@
+.cardapio {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.cardapio-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.cardapio-item-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  border: 1px #6e6e6e solid;
+  border-radius: 12px;
+  align-items: center;
+}
+
+.cardapio-item {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 100px;
+}
+
+.item-img {
+  width: 120px;
+  height: 110px;
+  border-radius: 100%;
+}

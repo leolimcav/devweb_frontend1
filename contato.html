@@ -4,13 +4,112 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Restaurante</title>
+    <!-- Reset CSS -->
+    <link rel="stylesheet" href="./css/reset.css" />
+    <!-- Link das fontes -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Zilla+Slab"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato"
+      rel="stylesheet"
+    />
+    <!-- Estilização do site -->
+    <link rel="stylesheet" href="./css/settings.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/contact.css" />
+
+    <title>VeGan Restaurant</title>
   </head>
   <body>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam quaerat,
-      minima odit aperiam enim sunt saepe ratione sint voluptatem molestias quia
-      blanditiis numquam quam voluptates nobis dicta aut error nulla.
-    </p>
+    <div class="container">
+      <header class="header-container" id="header-top">
+        <div class="header-schedule">
+          <img src="./img/icone-relogio.png" alt="Watch Icon" />
+          <div class="header-schedule-content">
+            <h4>Mon to Fri: 11:am - 10:00pm</h4>
+            <h4>Sat to Sun: 08:00am - 11:00pm</h4>
+          </div>
+        </div>
+        <div class="header-logo">
+          <img src="./img/VeGan.jpg" />
+          <img src="./img/Restaurant.jpg" />
+        </div>
+        <div class="header-address">
+          <img src="./img/icone-endereco.png" alt="Address Icon" />
+          <div class="header-address-content">
+            <h4>167 Science Center Drive, USA</h4>
+            <h4>+180-123-4567</h4>
+          </div>
+        </div>
+      </header>
+      <nav class="nav-container">
+        <a href="./index.html">Home</a>
+        <a href="./sobre.html">About</a>
+        <a href="./galeria.html">Gallery</a>
+        <a href="./contato.html">Contact</a>
+      </nav>
+      <div class="page-header">
+        <h2>Contact Us</h2>
+      </div>
+      <main class="content">
+        <form class="form-container">
+          <div class="form-input-container">
+            <label for="name">Name</label>
+            <input
+              class="form-input"
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Full Name"
+            />
+          </div>
+          <div class="form-input-container">
+            <label for="email">Email</label>
+            <input
+              class="form-input"
+              type="email"
+              name="email"
+              id="email"
+              placeholder="your@email.com"
+            />
+          </div>
+          <div class="form-input-container">
+            <label for="phone">Phone</label>
+            <input
+              class="form-input"
+              type="tel"
+              name="phone"
+              id="tel"
+              placeholder="(99)9-9999-9999"
+            />
+          </div>
+          <div class="form-input-container">
+            <label for="msg">Message</label>
+            <textarea
+              class="form-textarea"
+              name="msg"
+              id="msg"
+              cols="62"
+              rows="10"
+              placeholder="Type your message for us."
+            ></textarea>
+          </div>
+          <div class="form-btn-container">
+            <button class="form-btn" type="reset">Reset</button>
+            <button class="form-btn" id="submit">Submit</button>
+          </div>
+        </form>
+      </main>
+      <footer class="footer-container">
+        <h4>Tel: +180-123-4567</h4>
+        <h4>Founded in: 22/04/2019</h4>
+        <h4>Website Developed by: Leonardo Lima Cavalcante</h4>
+      </footer>
+    </div>
+    <script src="./js/jquery.js"></script>
+    <script src="./js/dist/jquery.inputmask.bundle.js"></script>
+    <script src="./js/form.js"></script>
   </body>
 </html>
