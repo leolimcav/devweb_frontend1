@@ -28,3 +28,9 @@
 #### data de fundação e o nome do desenvolvedor que criou o site.
 #### 5. Utilize pelo menos um dos widgets do [JQuery](https://jqueryui.com/widget/).
 #### Fica a seu critério qual escolher e como utilizar em seu site.
+
+## Tecnologias Utilizadas
+- __HTML5__
+- __CSS Flexbox__
+- __Javascript__
+- __JQuery__
